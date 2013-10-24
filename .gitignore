@@ -1,0 +1,30 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore bundler gems folder
+/vendor/bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3*
+/db_store/*.sqlite3*
+
+# Ignore all logfiles and tempfiles.
+/log
+/tmp
+*.sublime-workspace
+*.sublime-project
+tags
+*~
+
+# Mac operating system files
+.DS_Store
+
+.powrc
+
+# Debug defaults
+.rdebugrc
+
+.vagrant
+
+# Redis dump
+dump.rdb
