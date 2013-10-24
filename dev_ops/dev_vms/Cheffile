@@ -3,13 +3,8 @@
 
 site 'http://community.opscode.com/api/v1'
 
-# APT Cookbook Important: Since the version of chef-solo vagrant provides
-# nowadays by default is 10.14.2, we need to install the apt package
-# version 1.10.0, look at this README in the apt cookbook
-# https://github.com/opscode-cookbooks/apt/blob/master/README.md
-# Once vagrant delivers the newer version of chef-solo we can move to the newest
-# version of apt cookbook (however is no that important, it's a trivial cookbook)
-cookbook 'apt', git: 'https://github.com/opscode-cookbooks/apt', ref: '1.10.0'
+# APT Cookbook: used to do apt-get update before running other cookbooks
+cookbook 'apt', git: 'https://github.com/opscode-cookbooks/apt'
 
 cookbook 'graphite'
 cookbook 'statsd'

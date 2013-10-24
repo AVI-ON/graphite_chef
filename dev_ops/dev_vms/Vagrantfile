@@ -10,6 +10,9 @@ Vagrant.configure("2") do |config|
   # Every Vagrant virtual environment requires a box to build off of.
   config.vm.box = "precise64"
 
+  # Use omnibus to make vagrant use the latest version of chef
+  config.omnibus.chef_version = :latest
+
   # Configure chef solo so we can setup graphite on the virtual machines
   config.vm.provision :chef_solo do |chef|
     chef.cookbooks_path = 'cookbooks'

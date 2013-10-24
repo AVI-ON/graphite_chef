@@ -8,6 +8,14 @@ for testing.
 For more information on using vangrant refer to the home page, has really good
 documentation [http://vagrantup.com](http://vagrantup.com).
 
+### Vagrant Omnibus to update the version of chef.
+
+Vagrant comes with a relatively old version of chef by default and will most
+probably cause problems with the cookbooks you want to run. Vagrant Omnibus helps
+solve this: https://github.com/schisamo/vagrant-omnibus
+
+````vagrant plugin install vagrant-omnibus````
+
 Usage on the context of our project:
 
 - You'll need to install [Virtual Box](https://www.virtualbox.org/)
