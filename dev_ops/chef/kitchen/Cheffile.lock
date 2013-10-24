@@ -1,0 +1,24 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apache2 (1.8.4)
+    build-essential (1.4.2)
+    graphite (0.4.3)
+      apache2 (>= 0.0.0)
+      memcached (>= 0.0.0)
+      python (>= 0.0.0)
+      runit (~> 1.0)
+    memcached (1.6.0)
+      runit (~> 1.0)
+      yum (>= 0.0.0)
+    python (1.4.0)
+      build-essential (>= 0.0.0)
+      yum (>= 0.0.0)
+    runit (1.3.0)
+      build-essential (>= 0.0.0)
+      yum (>= 0.0.0)
+    yum (2.3.4)
+
+DEPENDENCIES
+  graphite (>= 0)
+
