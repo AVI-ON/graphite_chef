@@ -8,7 +8,6 @@ for testing.
 For more information on using vangrant refer to the home page, has really good
 documentation [http://vagrantup.com](http://vagrantup.com).
 
-
 Usage on the context of our project:
 
 - You'll need to install [Virtual Box](https://www.virtualbox.org/)
