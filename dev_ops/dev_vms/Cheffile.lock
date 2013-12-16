@@ -34,10 +34,10 @@ SITE
 
 GIT
   remote: https://github.com/opscode-cookbooks/apt
-  ref: 1.10.0
-  sha: d4b5912cd8f3e73a417b3b176fb85e37b04993fa
+  ref: master
+  sha: 27a63b72ada97ff716901ee7d6a86315767672e0
   specs:
-    apt (1.10.0)
+    apt (2.3.1)
 
 DEPENDENCIES
   apt (>= 0)
